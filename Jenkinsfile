@@ -26,7 +26,8 @@ pipeline {
     stage('Create Docker Image') {
       steps {
         echo 'This stage will compile, test, package my application'
-        sh 'docker build -t cbabu85/Healthcare:1.0 .'
+        sh 'docker build -t hemanthkl1987/Healthcare:1.0 .'
                           }
+    }
   }
 }
